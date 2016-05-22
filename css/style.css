@@ -5,3 +5,21 @@
 div {
 	border: 1px solid Chocolate;
 }
+
+/* Navigation Section */
+.top-navigation {
+	background-color: #fff;
+	height: 4.375em;
+	width: auto;
+}
+
+.top-navigation > .content {
+	width: 60em;
+	height: 4.375em;
+	margin: 0 auto;
+}
+
+
+.content > li {
+	display: inline-block;
+}
