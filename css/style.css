@@ -1,7 +1,7 @@
-* {
+/* {
 	background-color: LightGray;
 }
-
+*/
 
 html {
   box-sizing: border-box;
@@ -11,9 +11,6 @@ html {
   box-sizing: inherit;
 }
 
-/* div {
-	border: 1px solid Chocolate;
-}
 
 /* Navigation Section */
 .top-navigation {
@@ -61,10 +58,39 @@ html {
 
 .introduction {
 	background-image: url(../images/first-background.jpg);
+	background-position: center bottom;
 	background-repeat: no-repeat;
-	background-position: center;
 	background-size: cover;
-	border: 1px solid Chocolate;
 	height: 45.938rem;
+	overflow: auto;
+}
+
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+
+.introduction h1,
+.introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+
+.button {
+	color: white;
+	margin-top: 5rem;
+	text-align: center;
+}
+
+button {
+	text-align: center;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
 	
 }
