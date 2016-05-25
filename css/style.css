@@ -58,3 +58,13 @@ html {
 	color: black;
 	cursor: pointer;
 }
+
+.introduction {
+	background-image: url(../images/first-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border: 1px solid Chocolate;
+	height: 45.938rem;
+	
+}
