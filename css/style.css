@@ -5,6 +5,7 @@
 
 html {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
  }
 
 *, *:before, *:after {
@@ -31,7 +32,6 @@ html {
 
 .links {
 	float: right;
-	font-family: 'Roboto', sans-serif;
 	color: #838994;
 	margin-top: 1.4em;
 	font-size: 1.04em;
@@ -58,9 +58,9 @@ html {
 
 .introduction {
 	background-image: url(../images/first-background.jpg);
-	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 0 bottom;
 	height: 45.938rem;
 	overflow: auto;
 }
@@ -93,4 +93,9 @@ button {
 	color: white;
 	font-size: 1.125rem;
 	
+}
+
+button:hover {
+	background-color: #762208;
+	cursor: pointer;
 }
