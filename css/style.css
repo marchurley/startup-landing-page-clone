@@ -132,3 +132,42 @@ button:hover {
 	font-size: 1.563rem;
 	margin: 2.5rem 0px 1.875rem;
 }
+
+.social {
+	text-align: center;
+	height: 12rem;
+	margin-bottom: 9.375rem;
+}
+
+.social hr {
+	border: 0;
+	border-top: 1px solid LightGray;
+}
+
+.social h5 {
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+.icons {
+	padding-right: 2.5rem;
+}
+
+.icons li:hover {
+	cursor: pointer;
+}
+
+.icons li {
+	display: inline-block;
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin: 0.5rem;
+	border: 1px solid LightGray;
+}
+
+.social span {
+	font-weight: 200;
+	color: LightGray;
+	font-size: 0.8rem;
+}
